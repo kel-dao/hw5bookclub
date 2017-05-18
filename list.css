@@ -1,25 +1,54 @@
+
 table{
     padding: 3px;
-    border: 1px solid green;
+    border: 1px solid black;
+    width: 70%;
+    font-family: 'Arapey', serif;
+    background-color: black;
+    color: white;
 }
 
 th{
-    color:blue;
+    color:black;
 }
 
         .metaConfigTable td {
             padding: 3px;
-            border: 1px solid blue;
+            border: 1px solid white;
         }
 
         .metaConfigTable th{
             font-weight: bolder;
             text-align: left;
             padding: 3px;
-            border: 1px solid blue;
+            border: 2px solid white;
+            background-color: gold;
         }
 
         .metaConfigTable caption {
             font-weight: bolder;
             text-align: center;
         }
+
+img {
+  align-self: center;
+  width: 70%;
+}
+
+button {
+  width: 70%;
+  font-size: 2em;
+  border: 3px solid black;
+  font-family: 'Arapey', serif;
+  font-weight: bold;
+  color: white;
+  background-color: darkturquoise;
+}
+
+h1 {
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  width: 70%;
+  font-size: 3rem;
+  color: darkturquoise;
+}
