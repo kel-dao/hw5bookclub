@@ -53,3 +53,8 @@ $(document).ready(function(){
         $("#table").show();
     });
 });
+
+function deleteRow(btn) {
+  var row = btn.parentNode.parentNode;
+  row.parentNode.removeChild(row);
+}
